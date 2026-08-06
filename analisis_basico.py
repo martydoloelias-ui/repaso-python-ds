@@ -1,5 +1,5 @@
 #Tarea 1: Definicion de variables
-nombre_productto = "Cortina Roller Blackout"
+nombre_producto = "Cortina Roller Blackout"
 precio = 25999.90
 cantidad_stock = 15
 tiene_descuento = True
