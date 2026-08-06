@@ -8,6 +8,10 @@ print(f"Producto: {nombre_producto} | Precio: ${precio}  |  Stock: {cantidad_sto
 
 #Tarea 2: Logica de negocio (Bucle + Condicional)
 precios = [45.40, 120.00, 99.99, 250.30, 80.00]
+precios_de_costo = []
+for p in precios:
+    precio_costo = p * 0.6 #cuando cuesta hacerlo
+    precios_de_costo.append(precio_costo)
 
 for precio_item in precios:
     if precio_item > 100:
